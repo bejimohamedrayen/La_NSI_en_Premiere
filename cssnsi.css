@@ -1,0 +1,54 @@
+body nav{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 1px;
+
+}
+nav li{
+    display:inline-block;
+}
+a{
+    text-decoration: none;
+    color: rgb(24, 21, 21);
+    width: 150px;
+    display:block;
+    padding: 20px 15px;
+
+}
+body nav li{
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    margin:0.5em;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 150px;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body nav li:hover{
+    background-color: rgb(114, 114, 177);
+    box-shadow: 3px 5px 5px;
+}
+section .elite{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+section{
+
+    border-radius: 50px;
+}
+section p{
+    padding: 5px;
+    
+    font-size:  20px ;
+}
+.cafe{
+    position:absolute;
+    margin: 400px;  
+}
+.hello{
+    font-style: italic;
+
+
+}

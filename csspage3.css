@@ -1,0 +1,40 @@
+body nav{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 3px 3px;
+}
+nav li{
+    display:inline-block;
+}
+a{
+    text-decoration: none;
+    color: rgb(24, 21, 21);
+    width: 150px;
+    display:block;
+    padding: 20px 15px;
+
+}
+body nav li{
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    margin:0.5em;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 150px;
+    size: 20px;
+}
+body nav li:hover{
+    background-color: rgb(114, 114, 177);
+    box-shadow: 3px 5px 5px;
+}
+.quantite{
+    width: 700px;
+    margin: 250px;
+    font-size: 20px;
+}
+.competence{
+    width: 700px;
+    margin: 250px;
+    font-size: 20px;
+}
+

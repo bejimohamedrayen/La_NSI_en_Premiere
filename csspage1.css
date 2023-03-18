@@ -1,0 +1,106 @@
+body nav{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 3px 3px;
+    margin: 0;
+    padding: 0;
+    
+}
+nav li{
+    display:inline-block;
+}
+a{
+    text-decoration: none;
+    color: rgb(24, 21, 21);
+    width: 150px;
+    display:block;
+    padding: 20px 15px;
+
+}
+body nav li{
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    margin:0.5em;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 150px;
+    size: 20px;
+}
+body nav li:hover{
+    color:rgb(120, 120, 231);
+    box-shadow: 3px 5px 5px;
+}
+section {
+    border-radius: 10px ;
+    margin: 50px;  
+    
+}
+
+
+section li{
+    margin:10px;
+    padding:10px;   
+
+}
+section .premier {
+    box-shadow: 0.5px 0.5px 0.5px;
+    margin: 50px;
+    width: 700px;
+
+}
+section .premier header{
+    margin: 30px;
+    padding: 20px;
+    ;
+    font-size: 19px;
+}
+section .premier li{
+    margin: 10  px;
+    padding: 3px;
+    font-size: 17px ;
+
+}
+section .deuxieme{
+    box-shadow: 0.5px 0.5px 0.5px;
+    margin: 50px;
+    width: 700px;  
+}
+
+section .deuxieme header{
+    margin: 20px;
+    padding: 20px;
+    font-size: 18px;
+}
+section .deuxieme li{
+    margin: 10px;
+    padding: 2px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+section .tout{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 150px;
+    
+}
+section .tout .troisieme{
+    width: 1000px; 
+    text-decoration: underline;
+   
+}
+section .tout .troisieme header{
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+
+}
+
+section .tout .quatrieme{
+    box-shadow: 0.5px 0.5px 0.5px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+
+}
+.thonny{
+    margin-left: 150px;
+}
